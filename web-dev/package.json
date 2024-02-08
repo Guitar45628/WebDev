@@ -1,0 +1,17 @@
+{
+  "name": "web-dev",
+  "version": "0.1.0",
+  "description": "This is test version.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p server client",
+    "server": "nodemon server/server.js",
+    "client": "cd client && npm start"
+  },
+  "author": "Guitar45628",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0"
+  }
+}
